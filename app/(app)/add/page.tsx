@@ -24,6 +24,14 @@ const EMPTY: Omit<TestCase, "id" | "createdAt" | "updatedAt"> = {
 };
 
 export default function AddPage() {
+  return (
+    <React.Suspense fallback={<div style={{ padding: 32, color: 'white', textAlign: 'center' }}>Loading form...</div>}>
+      <AddPageContent />
+    </React.Suspense>
+  );
+}
+
+function AddPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const editId = searchParams.get("edit");
