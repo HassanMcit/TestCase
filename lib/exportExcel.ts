@@ -233,7 +233,7 @@ function buildEnvSheet() {
 }
 
 // ────── Main export function ──────────────────────────────────────────────────
-export function exportToExcel(cases: TestCase[], projectName = "TestFlow") {
+export function exportToExcel(cases: TestCase[], projectName = "HA-TestCase") {
   const wb = XLSX.utils.book_new();
 
   XLSX.utils.book_append_sheet(wb, buildTestCasesSheet(cases), "Test Cases");

@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "TestFlow — Test Case Manager",
+  title: "HA-TestCase — Test Case Manager",
   description: "Create, manage & export professional test cases to Excel in seconds.",
 };
 

@@ -102,7 +102,7 @@ export default function Sidebar() {
           <CheckIcon />
         </div>
         <div>
-          <div style={{ color: "white", fontWeight: 700, fontSize: 15, letterSpacing: "-.2px" }}>TestFlow</div>
+          <div style={{ color: "white", fontWeight: 700, fontSize: 15, letterSpacing: "-.2px" }}>HA-TestCase</div>
           <div style={{ color: "var(--text-muted)", fontSize: 10, marginTop: 1 }}>Test Case Manager</div>
         </div>
       </div>
